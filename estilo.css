@@ -1,0 +1,53 @@
+body{
+    background-image: url("fundo.jpg");
+    font: normal 15pt Arial;
+}
+header{
+    color: white;
+    text-align: center;
+}
+
+section{
+    background: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.397);
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+}
+
+/*#pv{
+    text-align: center;
+}
+
+#pm{
+    text-align: center;
+}
+*/
+#unidade{
+    text-align: center;
+}
+
+#den{
+    float: left;
+    text-align: center;
+    margin-top: 44px;
+    margin-left: 150px;
+    padding-right: 5px;
+}
+
+#formula{
+    margin-top: 30px;
+    text-align: center;
+    line-height: 2px;
+    margin-bottom: 2px;
+    float: left;
+    padding-left: 2px;
+}
+
+
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+}

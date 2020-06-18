@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo de Densidade</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Cálculo de Densidade</h1>
+    </header>
+    <section>
+        <p id="unidade">
+            Unidade:
+            <input type="radio" name="uni" id="kgm" oninput="mudaUnidade()">
+            <label for="kgm">kg/m<sup>3</sup></label>
+            <input type="radio" name="uni" id="gml" oninput="mudaUnidade()">
+            <label for="gml">g/ml</label>
+        </p>
+        <fieldset>
+            <div id="den">d =</div>
+            <div id="formula">
+                <input type="number" name="mass" id="mass" min="0" max="10" size="5" placeholder="mass"><span id="m"> m</span>
+                <hr style="width:100px; color:black: 0px; margin-bottom: 5px; margin-top: 5px;">
+                <input type="number" name="vol" id="vol" min="0" max="10" size="5" placeholder="vol"><span id="v"> v</span>
+                <p><input type="button" value="calcular" onclick="calcular()"></p>
+            </div>
+            
+        </fieldset>
+    </section>
+    <footer>
+        <p>&copy; Leandro Fernandes</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
